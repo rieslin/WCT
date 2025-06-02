@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase: Cyberpunk Gamified World Chase Tag</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Dark background for cyberpunk feel */
+            color: #e0e0e0; /* Light text color */
+            line-height: 1.6;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #0d0d0d;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            color: #00ffff; /* Neon cyan for titles */
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav button {
+            background-color: #333;
+            color: #00ffff;
+            border: 1px solid #00ffff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        nav button.active {
+            background-color: #00ffff;
+            color: #1a1a1a;
+        }
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #333;
+        }
+        section:last-of-type {
+            border-bottom: none;
+        }
+        h2 {
+            color: #ff00ff; /* Neon magenta for section titles */
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .content-block {
+            margin-bottom: 20px;
+        }
+        .bilingual-content.chinese {
+            display: none; /* Hide Chinese content by default */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #00ffff; /* Neon border for images */
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img {
+            width: 45%; /* Adjust as needed */
+            margin-bottom: 10px;
+        }
+        /* Basic responsive adjustments */
+        @media (max-width: 768px) {
+            .gallery img {
+                width: 90%;
+            }
+            nav button {
+                display: block;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="bilingual-content english">Project Showcase: Cyberpunk Gamified World Chase Tag</h1>
+            <h1 class="bilingual-content chinese">项目展示：赛博朋克游戏化世界追逐赛</h1>
+        </div>
+    </header>
+
+    <nav>
+        <button id="lang-en" class="active">English</button>
+        <button id="lang-zh">中文 (Chinese)</button>
+    </nav>
+
+    <div class="container">
+
+        <section id="hero">
+            <div class="content-block">
+                <h2 class="bilingual-content english">Experience the Revolution of Sport</h2>
+                <h2 class="bilingual-content chinese">体验运动的革命</h2>
+                <img src="images/Neon Chase in Motion.png" alt="Neon Chase in Motion (Placeholder - replace with your image path)">
+                <p class="bilingual-content english">This project introduces a cyberpunk gamified mode for World Chase Tag (WCT), transforming the arena and athlete appearance with a stunning futuristic aesthetic while adhering to official rules. Get ready for a neon-soaked, adrenaline-fueled experience!</p>
+                <p class="bilingual-content chinese">该项目为世界追逐赛（WCT）引入了赛博朋克游戏化模式，在遵守官方规则的同时，以惊艳的未来主义美学改造了竞技场和运动员外观。准备好迎接充满霓虹灯光、令人肾上腺素飙升的体验吧！</p>
+            </div>
+        </section>
+
+        <section id="overview">
+            <div class="content-block">
+                <h2 class="bilingual-content english">What is Cyberpunk World Chase Tag?</h2>
+                <h2 class="bilingual-content chinese">什么是赛博朋克世界追逐赛？</h2>
+                <img src="images/arena before start.png" alt="WCT Arena (Placeholder - replace with your image path)">
+                <p class="bilingual-content english">We're overlaying a high-tech visual layer onto the standard WCT Quad (12m x 12m arena). This includes neon-lit obstacles, dynamic lighting responsive to gameplay, and an electrifying atmosphere that enhances the spectator and athlete experience. The core WCT rules and obstacle integrity remain paramount.</p>
+                <p class="bilingual-content chinese">我们在标准的WCT四方场地（12米x12米竞技场）上叠加了高科技视觉层。这包括霓虹灯障碍物、响应游戏动态的照明以及增强观众和运动员体验的电气化氛围。核心WCT规则和障碍物的完整性仍然至关重要。</p>
+                 <p class="bilingual-content english">Key Features: Neon-lit obstacles, interactive lighting, gamified elements (e.g., 'power zones', visual cues for chaser/evader proximity), and enhanced athlete wearables.</p>
+                <p class="bilingual-content chinese">主要特点：霓虹灯障碍物、互动照明、游戏化元素（例如“能量区”、追逐者/躲避者接近的视觉提示）以及增强型运动员可穿戴设备。</p>
+            </div>
+        </section>
+
+        <section id="wearables">
+             <h2 class="bilingual-content english">Futuristic Athlete Wearables</h2>
+             <h2 class="bilingual-content chinese">未来感运动员可穿戴设备</h2>
+             <div class="gallery">
+                <img src="images/wearable sample female.png" alt="Female Wearable Sample (Placeholder)">
+                <img src="images/wearable sample male.png" alt="Male Wearable Sample (Placeholder)">
+            </div>
+            <p class="bilingual-content english">Athletes will be equipped with custom illuminated suits or accents, integrating programmable LEDs or fiber optics. This not only looks spectacular but can also provide real-time visual feedback during matches (e.g., team colors, chaser/evader status, 'tagged' effects).</p>
+            <p class="bilingual-content chinese">运动员将配备定制的发光服或配饰，集成可编程LED或光纤。这不仅看起来壮观，还可以在比赛期间提供实时视觉反馈（例如，团队颜色、追逐者/躲避者状态、“被标记”效果）。</p>
+        </section>
+
+        <section id="opportunity">
+            <div class="content-block">
+                <h2 class="bilingual-content english">Investment & Sponsorship Appeal</h2>
+                <h2 class="bilingual-content chinese">投资与赞助吸引力</h2>
+                <p class="bilingual-content english">This cyberpunk gamified mode significantly enhances WCT's visual appeal, making it highly attractive for broadcasts, streaming, and sponsorships. The futuristic aesthetic opens doors for unique branding opportunities and merchandise lines. We offer scalable implementations, from budget-friendly neon setups to premium, high-impact cyberpunk arenas.</p>
+                <p class="bilingual-content chinese">这种赛博朋克游戏化模式显著增强了WCT的视觉吸引力，使其对广播、流媒体和赞助极具吸引力。未来主义的美学为独特的品牌机会和商品系列打开了大门。我们提供可扩展的实施方案，从经济实惠的霓虹灯装置到高端、高影响力的赛博朋克竞技场。</p>
+                <p class="bilingual-content english"><em>[Placeholder for charts/visuals: e.g., Potential viewership growth, sponsorship integration examples, market differentiation]</em></p>
+                <p class="bilingual-content chinese"><em>[图表/视觉效果占位符：例如，潜在观众增长、赞助整合示例、市场差异化]</em></p>
+            </div>
+        </section>
+
+        <section id="visuals">
+            <h2 class="bilingual-content english">Visual Showcase: The Arena in Action</h2>
+            <h2 class="bilingual-content chinese">视觉展示：竞技场实况</h2>
+            <div class="gallery">
+                <img src="images/arena during game.png" alt="Arena During Game (Placeholder)">
+                <img src="images/Neon Chase in Motion.png" alt="Neon Chase Detail (Placeholder - if different from hero)">
+                </div>
+            <p class="bilingual-content english">Imagine the thrill: athletes darting through neon-drenched obstacles, their movements traced by light, under the watch of an energized crowd. This is more than sport; it's an immersive spectacle.</p>
+            <p class="bilingual-content chinese">想象一下这种刺激：运动员在霓虹灯浸染的障碍物中穿梭，他们的动作被光线追踪，在充满活力的观众注视下。这不仅仅是运动；这是一场身临其境的奇观。</p>
+        </section>
+
+        <section id="contact">
+            <div class="content-block">
+                <h2 class="bilingual-content english">Connect With Us</h2>
+                <h2 class="bilingual-content chinese">联系我们</h2>
+                <p class="bilingual-content english">Ready to be part of the future of sport? Let's discuss how we can bring this vision to life and explore investment or partnership opportunities.</p>
+                <p class="bilingual-content chinese">准备好成为未来体育的一部分了吗？让我们讨论如何将这一愿景变为现实，并探讨投资或合作机会。</p>
+                <p class="bilingual-content english">Email: xingming.zhou@zeusinsights.net <br> Phone: +86 13817378603 </p>
+                <p class="bilingual-content chinese">电子邮件：xingming.zhou@zeusinsights.net <br> 电话：+86 13817378603 </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="bilingual-content english">&copy; <span id="year-en"></span> ZEUS INSIGHTS. All rights reserved.</p>
+            <p class="bilingual-content chinese">&copy; <span id="year-zh"></span> 宙思文化传媒. 版权所有。</p>
+        </div>
+    </footer>
+
+    <script>
+        const langEnButton = document.getElementById('lang-en');
+        const langZhButton = document.getElementById('lang-zh');
+        const englishContent = document.querySelectorAll('.bilingual-content.english');
+        const chineseContent = document.querySelectorAll('.bilingual-content.chinese');
+        const yearEn = document.getElementById('year-en');
+        const yearZh = document.getElementById('year-zh');
+
+        if (yearEn) yearEn.textContent = new Date().getFullYear();
+        if (yearZh) yearZh.textContent = new Date().getFullYear();
+
+        function switchToEnglish() {
+            englishContent.forEach(el => el.style.display = 'block');
+            chineseContent.forEach(el => el.style.display = 'none');
+            langEnButton.classList.add('active');
+            langZhButton.classList.remove('active');
+            document.documentElement.lang = 'en';
+        }
+
+        function switchToChinese() {
+            englishContent.forEach(el => el.style.display = 'none');
+            chineseContent.forEach(el => el.style.display = 'block');
+            langEnButton.classList.remove('active');
+            langZhButton.classList.add('active');
+            document.documentElement.lang = 'zh';
+        }
+
+        langEnButton.addEventListener('click', switchToEnglish);
+        langZhButton.addEventListener('click', switchToChinese);
+
+        // Initialize with English
+        switchToEnglish();
+    </script>
+
+</body>
+</html>
